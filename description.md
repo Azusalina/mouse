@@ -46,3 +46,7 @@ Validation completed on 2026-10-14:
 - Physical button presses in target applications, unplug/power-cycle persistence, and wired connection remain manual validation boundaries. The GUI includes a focused input field that displays received key/modifier and mouse-button events.
 
 The installed host icon theme emits GTK size-field warnings; it does not prevent launching or reading profiles. The irrelevant Solaar rules-module Wayland injection notice is filtered, because this app uses onboard HID output rather than Solaar rules.
+
+## Independent repository migration (2026-10-27)
+
+Source and existing local data moved to `/home/a/Documents/products/mouse`, retaining the product commit history. This checkout now owns its `.git` and `origin`; commit and push here independently. This supersedes the earlier hub-only or root-forwarded publication arrangement. Existing configuration locations, command names, and user data are preserved.

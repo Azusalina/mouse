@@ -33,3 +33,5 @@ Connect the LIGHTSPEED receiver or the mouse's USB cable and wake the mouse. If 
 Bindings are stored inside the mouse and remain active after login or power cycling automatically. No autostart process is needed. **Save draft / Open draft** handles local JSON files; **Restore bindings** opens automatic backups and stages their button mappings for review before saving. Backups are under `${XDG_CONFIG_HOME:-~/.config}/g502x-mouse/backups/`.
 
 Remove the menu/command launcher with `python install.py --remove`. Optionally remove `/etc/udev/rules.d/70-g502x-mouse.rules` as administrator and reload udev rules. Uninstalling does not reset mouse bindings or delete backups.
+
+This is an independent repository at `/home/a/Documents/products/mouse`, published as [Azusalina/mouse](https://github.com/Azusalina/mouse). Run `git add`, `git commit`, and `git push` here. Its source has moved out of `someProducts`; hub pushes no longer publish this project.
